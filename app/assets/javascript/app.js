@@ -1,3 +1,3 @@
-angular.module('NoteWrangler', ['ngRoute', 'ngResource', "ngGravatar"]).config(function(GravatarProvider){
+angular.module('TaskKeeper', ['ngRoute', 'ngResource', "ngGravatar"]).config(function(GravatarProvider){
   GravatarProvider.setSize(100);
 });

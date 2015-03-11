@@ -1,3 +1,3 @@
-angular.module('NoteWrangler').factory('Category', function($resource){
+angular.module('TaskKeeper').factory('Category', function($resource){
   return $resource('/categories/:id');
 });

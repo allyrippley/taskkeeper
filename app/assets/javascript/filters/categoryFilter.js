@@ -1,4 +1,4 @@
-angular.module("NoteWrangler").filter('categoryFilter', function(){
+angular.module("TaskKeeper").filter('categoryFilter', function(){
   return function(collection, category){
     var newCollection = [];
 
